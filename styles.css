@@ -1,0 +1,40 @@
+body {
+  background: #f2f2f2;
+}
+
+.main {
+  height: 100vh;
+}
+
+@media only screen and (max-width: 709px) {
+  button {
+    margin-bottom: 15px;
+  }
+}
+
+.registered-time {
+  transition: all ease 0.2s;
+}
+
+.registered-time.active {
+  margin-top: 35px;
+}
+
+.registered-time h3 {
+  margin-bottom: 0;
+}
+
+.registered-time li {
+  transition: all ease 0.3s;
+  opacity: 0;
+  margin-top: -60px;
+}
+
+.registered-time li.spawn-animation {
+  opacity: 1;
+  margin-top: 0;
+}
+
+.card-time {
+  margin: 20px 0;
+}
